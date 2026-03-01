@@ -118,7 +118,7 @@ export default function Navbar() {
                   {/* ================= */}
 
                   {/* SubCategories Link  */}
-                  <NavigationMenuItem>
+                  {/* <NavigationMenuItem>
                     <NavigationMenuLink
                       asChild
                       className="text-gray-500 dark:text-gray-100 text-md md:text-2xl"
@@ -130,7 +130,7 @@ export default function Navbar() {
                         SubCategories
                       </Link>
                     </NavigationMenuLink>
-                  </NavigationMenuItem>
+                  </NavigationMenuItem> */}
                   {/* ====================== */}
                 </NavigationMenuList>
               </NavigationMenu>
