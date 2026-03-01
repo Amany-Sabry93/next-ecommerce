@@ -265,8 +265,8 @@ export default function Navbar() {
                
 
                   {/* Shopping Car Icon  */}
-                  
-                  
+                  {data ? (
+                    <>
                       <NavigationMenuItem>
                         <NavigationMenuLink
                           asChild
@@ -286,15 +286,15 @@ export default function Navbar() {
                             </div>
 
                             <div className="text-gray-500 dark:text-gray-100  text-sm ">
-                              hi,{data?.user?.name}
+                              hi,{data.user?.name}
                             </div>
                           </div>
                         </NavigationMenuLink>
                       </NavigationMenuItem>
-                  
-                  
-                  
-                  
+                    </>
+                  ) : (
+                    ""
+                  )}
                   {/* =============================== */}
                      
 
